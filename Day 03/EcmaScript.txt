@@ -1,0 +1,11 @@
+CommonJS (CJS):
+- Node's original module system, using require() to import and module.
+- exports to export. 
+- Loads modules synchronously and resolves them at runtime, so imports can even be conditional or dynamic (e.g., inside an if). 
+- Uses .js (default in Node) or .cjs extension.
+
+
+ECMAScript Modules (ESM):
+- The standard JavaScript module system, using import/export syntax at the top level. 
+- Modules are statically analyzed and resolved at parse time (before execution), enabling tree-shaking and stricter, more predictable dependency graphs. 
+- Uses .mjs extension or .js with "type": "module" in package.json.
